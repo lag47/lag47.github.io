@@ -24,6 +24,7 @@
             <abbr class="badge">{{entry.abbr}}</abbr>
           {%- endif -%}
         {%- endif -%}
+
         </div>
 
         <!-- Entry bib key -->
@@ -181,6 +182,13 @@
             <a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Slides</a>
             {%- endif %}
           {%- endif %}
+          {%- if entry.pres %}
+            {% if entry.pres contains '://' -%}
+            <a href="{{ entry.pres }}" class="btn btn-sm z-depth-0" role="button">Pres</a>
+            {%- else -%}
+            <a href="{{ entry.pres | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Pres</a>
+          {%- endif %}
+        {%- endif %}
           {%- if entry.website %}
             <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
           {%- endif %}

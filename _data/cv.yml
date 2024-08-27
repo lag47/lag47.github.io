@@ -1,97 +1,98 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
-
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: University of Pennsylvania
+      year: 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - title: Computer Science
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+            - Programming Languages
+            - Formal Verification
+        - title: Advisor
+          contents: Steve Zdancewic
+    - title: BA
+      institution: Cornell University
+      year: 2019
       description:
-        - Description 1.
-        - Description 2.
-
+        - Computer Science Major
+        - Math Minor
+# this can/should be fleshed out a lot
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: University of Pennsylvania
+      institution: PhD Researcher
+      year: 2019 - 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - title: Researched <a href="https://dl.acm.org/doi/10.1145/3371119">Interaction Trees</a>, a novel programming language semantics tool
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+            - Developed, and published a <a href = "https://popl20.sigplan.org/">POPL</a> <a href = "https://www.seas.upenn.edu/~lucsil/assets/pdf/dmf.pdf">paper</a> on, a framework for rich programming languages using Interaction Trees. This framework adapted ideas from the <a href = "https://dl.acm.org/doi/10.1145/3341708">Dijkstra Monad</a> literature.
+            - Developed, and published an <a href = "https://conf.researchr.org/home/ecoop-2023">ECOOP</a> <a href = "https://www.seas.upenn.edu/~lucsil/assets/pdf/itreesec.pdf">paper</a> on, a framework for reasoning about <a href = "https://link.springer.com/referenceworkentry/10.1007/978-1-4419-5906-5_874">noninterference</a> in programs represented with Interaction Trees.
+    - title: Galois Inc 
+      institution: Research Intern
+      year: 2022
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Developed programming logic amenable to automation for the output of the Heapster translation tool, a key step towards building an efficient verification pipeline for low-level, heap-manipulating programs.
+        - Published an <a href = "https://conf.researchr.org/home/ecoop-2023">ECOOP</a> <a href = "https://www.seas.upenn.edu/~lucsil/assets/pdf/itreesec.pdf">paper</a> about this work in with full time Galois employees, helping to establish the technology's credibility.
+        - Aided in further developement of Heapster translation tool. 
+    - title: Pure Storage 
+      institution: Software Development Intern
+      year: 2019
       description:
+        - Developed web analytics framework for analyzing user interactions with storage management frontend.
+    - title: Akamai Technologies
+      institution: Software Development Intern
+      year: 2018
+      description:
+        - Developed Java Annotation Processor to produce RAML API documentation from commented Spring code managing a customer facing website.
+    - title: BGC Partners/Cantor Fitzgerald
+      institution: Software Development Intern
+      year: 2017
+      description:
+        - Devloped framework and functional prototype for a reference data system designed to allow employees to log and view information on trades.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Proof Assistants
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Coq
+        - Agda
+        - Lean
+    - title: Programming Languages
       items:
-        - Description 1.
-        - Description 2.
+        - OCaml
+        - Haskell
+        - F*
+        - Java
+        - Python
+        - Typescript
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+#- title: Honors and Awards
+#  type: time_table
+#  contents:
+#    - year: 1921
+#      items: 
+#        - Nobel Prize in Physics 
+#        - Matteucci Medal
+#    - year: 2029
+#      items: 
+#        - Max Planck Medal
+
+#- title: Academic Interests
+#  type: nested_list
+#  contents:
+#    - title: Topic 1.
+#      items: 
+#        - Description 1.
+#        - Description 2.
+#    - title: Topic 2.
+#      items:
+#        - Description 1.
+#        - Description 2.
+
+#- title: Other Interests
+#  type: list
+#  contents:
+#    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
