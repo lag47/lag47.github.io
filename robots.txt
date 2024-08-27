@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://lag47.github.io/lag47.github.io/_site/sitemap.xml
