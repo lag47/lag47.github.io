@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://lag47.github.io/~lucsil//sitemap.xml
+Sitemap: https://lag47.github.io/sitemap.xml
