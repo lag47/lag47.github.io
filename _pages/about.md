@@ -15,4 +15,5 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Welcome! My name is Lucas Silver, and I am a Postdoc researcher working with [Steve Zdancewic](https://www.cis.upenn.edu/~stevez/) at the University of Pennsylvania. I study formal verification, the science of making sure programs do exactly what they are supposed to.
+Welcome! My name is Lucas Silver, and I am a Computer Science researcher at [JHU APL](https://www.jhuapl.edu/).
+Previously, I was a PhD student and a Postdoc researcher working with [Steve Zdancewic](https://www.cis.upenn.edu/~stevez/) at the University of Pennsylvania. I study formal verification, the science of making sure programs do exactly what they are supposed to.
